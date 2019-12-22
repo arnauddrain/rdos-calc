@@ -29,7 +29,7 @@ jobs:
       - run:
           name: Deploy Over SCP
           command: |
-            scp -r www/* "$SSH_USER@$SSH_HOST:$SSH_DEPLOY_PATH"
+            scp -r www/www/* "$SSH_USER@$SSH_HOST:$SSH_DEPLOY_PATH"
 
 workflows:
   version: 2
