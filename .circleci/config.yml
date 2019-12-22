@@ -15,7 +15,7 @@ jobs:
             - "node_modules"
       - run: npm run build -- --prod --aot
       - persist_to_workspace:
-          root: dist
+          root: www
           paths:
             - rdos-calc
 
@@ -25,11 +25,11 @@ jobs:
       enabled: true
     steps:
       - attach_workspace:
-          at: dist/rdos-calc
+          at: www/rdos-calc
       - run:
           name: Deploy Over SCP
           command: |
-            scp -r dist/rdos-calc/rdos-calc/* "$SSH_USER@$SSH_HOST:$SSH_DEPLOY_PATH"
+            scp -r www/rdos-calc/rdos-calc/* "$SSH_USER@$SSH_HOST:$SSH_DEPLOY_PATH"
 
 workflows:
   version: 2
