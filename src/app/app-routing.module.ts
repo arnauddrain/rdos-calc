@@ -7,6 +7,14 @@ const routes: Routes = [
   {
     path: 'rdos',
     loadChildren: () => import('./rdos/rdos.module').then( m => m.RdosPageModule)
+  },
+  {
+    path: 'ic-rdos',
+    loadChildren: () => import('./ic-rdos/ic-rdos.module').then( m => m.IcRdosPageModule)
+  },
+  {
+    path: 'mv-rdos',
+    loadChildren: () => import('./mv-rdos/mv-rdos.module').then( m => m.MvRdosPageModule)
   }
 ];
 

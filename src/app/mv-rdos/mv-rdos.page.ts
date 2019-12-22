@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 import { Form } from '../entities/form';
 
 @Component({
-  selector: 'app-rdos',
-  templateUrl: './rdos.page.html',
-  styleUrls: ['./rdos.page.css'],
+  selector: 'app-mv-rdos',
+  templateUrl: './mv-rdos.page.html',
+  styleUrls: ['./mv-rdos.page.css'],
 })
-export class RdosPage {
+export class MvRdosPage {
 
   public form: Form = {
     questions: [
