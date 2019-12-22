@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
+import { ModalController } from '@ionic/angular';
 
+import { ScoreComponent } from './score/score.component';
 import { Form } from '../entities/form';
 import { Answer, Question } from '../entities/question';
 
@@ -12,14 +14,24 @@ export class FormComponent {
 
   @Input() form: Form;
 
-  constructor() { }
+  constructor(public modalController: ModalController) { }
 
   selectAnswer(question: Question, answer: Answer) {
     question.selectedAnswer = answer;
     const notAnsweredQuestions = this.form.questions.filter(q => !q.selectedAnswer);
     if (!notAnsweredQuestions.length) {
-      ;
+      this.presentScore();
     }
   }
 
+  async presentScore() {
+    const modal = await this.modalController.create({
+      component: ScoreComponent,
+      componentProps: {
+        form: this.form
+      },
+      cssClass: 'score-modal'
+    });
+    return await modal.present();
+  }
 }

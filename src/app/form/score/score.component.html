@@ -1,0 +1,16 @@
+<ion-content>
+  <div class="ion-padding">
+    <h2>Résultat du diagnostic</h2>
+    <div class="score ion-margin-top" [ngClass]="score >= form.treshold ? 'error' : 'success'">
+      <span class="value">{{ score }}</span>
+    </div>
+    <ng-container *ngFor="let statement of form.statements">
+      <p>{{ statement.quote }}</p>
+      <p class="src">{{ statement.src }}</p>
+    </ng-container>
+    <ion-button [routerLink]="['/']" routerDirection="back" color="light" expand="block" class="ion-margin-top"
+      (click)="dismiss()">
+      Retour à l'accueil
+    </ion-button>
+  </div>
+</ion-content>
