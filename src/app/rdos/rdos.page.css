@@ -1,9 +1,9 @@
 ion-toolbar {
-  --background: #7A70EE;
+  --background: var(--ion-color-rdos);
   --color: white;
   --border-color: black;
 }
 
 ion-content {
-  --background: #7A70EE;
+  --background: var(--ion-color-rdos);
 }
