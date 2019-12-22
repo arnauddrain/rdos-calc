@@ -1,0 +1,9 @@
+ion-toolbar {
+  --background: #7A70EE;
+  --color: white;
+  --border-color: black;
+}
+
+ion-content {
+  --background: #7A70EE;
+}

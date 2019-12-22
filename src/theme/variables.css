@@ -1,8 +1,28 @@
 /** Ionic Variables and Theming. For more info, please see:
  http://ionicframework.com/docs/theming/ **/
 
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../assets/fonts/SF-Pro-Display-Regular.otf') format('OpenType');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../assets/fonts/SF-Pro-Display-Heavy.otf') format('OpenType');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'SF Pro Display Black';
+  src: url('../assets/fonts/SF-Pro-Display-Black.otf') format('OpenType');
+  font-weight: normal;
+}
+
 /** Ionic CSS Variables **/
 :root {
+  --ion-font-family: 'SF Pro Display';
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
