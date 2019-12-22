@@ -1,5 +1,7 @@
 {
   "name": "rdos-calc",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
