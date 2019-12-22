@@ -10,46 +10,48 @@ import { Form } from '../entities/form';
 export class IcRdosPage {
 
   public form: Form = {
-    treshold: 4,
+    treshold: 2.6,
     statements: [
       {
-        quote: 'RDOS ≥ 4 prédit dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795). Les catégories de dyspnée sont déterminées par les patient(e)s eux(elles)-même.',
-        src: '(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)'
+        quote: 'La valeur seuil retenue pour fortement suspecter une dyspnée significative EVA-Dyspnée ≥ 4, est IC-RDOS ≥ 2,4. La dyspnée est évaluée par les patient(e)s au moyen d’une échelle visuelle analogique (EVA-Dyspnée) allant de 0 (pas de dyspnée) à 10cm (dyspnée maximale imaginable).',
+        src: '(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)'
       }
     ],
     questions: [
       {
         title: 'Fréquence cardiaque',
         answers: [
-          {
-            text: '< 90/min',
-            value: 0
-          },
-          {
-            text: '90 - 109/min',
-            value: 1
-          },
-          {
-            text: '> 110/min',
-            value: 2
-          }
+          { text: '< 90/min', value: 0 },
+          { text: '90 - 109/min', value: 1 },
+          { text: '> 110/min', value: 2 }
         ]
       },
       {
-        title: 'Fréquence respiratoire',
+        title: 'Respiration abdominale paradoxale',
         answers: [
-          {
-            text: '< 19/min',
-            value: 0
-          },
-          {
-            text: '19 - 30/min',
-            value: 1
-          },
-          {
-            text: '> 30/min',
-            value: 2
-          }
+          { text: 'Non', value: -1 },
+          { text: 'Oui', value: 1 }
+        ]
+      },
+      {
+        title: 'Contraction des muscles du cou à l\'inspiration',
+        answers: [
+          { text: 'Non', value: -1 },
+          { text: 'Oui', value: 1 }
+        ]
+      },
+      {
+        title: 'Expression faciale de peur',
+        answers: [
+          { text: 'Non', value: -1 },
+          { text: 'Oui', value: 1 }
+        ]
+      },
+      {
+        title: 'Besoin en oxygène',
+        answers: [
+          { text: 'Non', value: -0.7 },
+          { text: 'Oui', value: 0.7 }
         ]
       }
     ]
