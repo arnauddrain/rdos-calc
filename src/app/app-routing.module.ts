@@ -15,6 +15,10 @@ const routes: Routes = [
   {
     path: 'mv-rdos',
     loadChildren: () => import('./mv-rdos/mv-rdos.module').then( m => m.MvRdosPageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   }
 ];
 

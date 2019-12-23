@@ -1,0 +1,26 @@
+ion-item-divider {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.13px;
+  color: #000000;
+  text-transform: uppercase;
+  --padding-start: 30px;
+  --padding-end: 30px;
+  --padding-top: 20px;
+  --padding-bottom: 10px;
+}
+
+ion-item {
+  --padding-start: 30px;
+  --padding-end: 30px;
+  --detail-icon-opacity: 1;
+}
+
+p {
+  opacity: 0.5;
+}
+
+.link {
+  font-weight: 900;
+  letter-spacing: 0.18px;
+}

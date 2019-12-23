@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/']" routerDirection="back">
+        <ion-icon name="arrow-back" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Paramètres</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item-divider>
+    <ion-label>
+      à propos
+    </ion-label>
+  </ion-item-divider>
+  <ion-item>
+    <p>Cette application a été développée par l'équipe de réanimation/pneumologie de l'hôpital Pitié-Salpétrière à
+      Paris pour faciliter le calcul des échelles observationnelles de dyspnée RDOS, IC-RDOS et MV-RDOS. La dyspnée
+      étant par définition subjective, ces échelles ne prétendent pas affirmer la présence ou l'absence de dyspnée
+      mais offrent la possibilité de fortement suspecter de la dyspnée chez des patients non-communicants dans
+      différents contextes cliniques.</p>
+  </ion-item>
+  <ion-item [routerLink]="['/about']">
+    <span class="link">Références bibliographiques</span>
+  </ion-item>
+  <ion-item [routerLink]="['/contact']">
+    <span class="link">Contact</span>
+  </ion-item>
+</ion-content>
