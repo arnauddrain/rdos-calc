@@ -16,7 +16,7 @@ export class FormComponent {
 
   constructor(public modalController: ModalController) { }
 
-  selectAnswer(question: Question, answer: Answer) {
+  selectAnswer(question: Question, answer: Answer = null) {
     question.selectedAnswer = answer;
     const notAnsweredQuestions = this.form.questions.filter(q => !q.selectedAnswer);
     if (!notAnsweredQuestions.length) {
