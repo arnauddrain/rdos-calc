@@ -16,9 +16,19 @@ export class FormComponent {
 
   constructor(public modalController: ModalController) { }
 
+  updateNumericAnswer(question: Question, e: any) {
+    // TODO: should probably use ngmodel instead
+    question.numericAnswer = e.detail.value;
+    this.checkForFinish();
+  }
+
   selectAnswer(question: Question, answer: Answer = null) {
     question.selectedAnswer = answer;
-    const notAnsweredQuestions = this.form.questions.filter(q => !q.selectedAnswer);
+    this.checkForFinish();
+  }
+
+  checkForFinish() {
+    const notAnsweredQuestions = this.form.questions.filter(q => !q.selectedAnswer && !q.numericAnswer);
     if (!notAnsweredQuestions.length) {
       this.presentScore();
     }

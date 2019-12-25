@@ -11,6 +11,7 @@ export class IcRdosPage {
 
   public form: Form = {
     treshold: 2.6,
+    base: 3.3,
     statements: [
       {
         quote: 'La valeur seuil retenue pour fortement suspecter une dyspnée significative EVA-Dyspnée ≥ 4, est IC-RDOS ≥ 2,4. La dyspnée est évaluée par les patient(e)s au moyen d’une échelle visuelle analogique (EVA-Dyspnée) allant de 0 (pas de dyspnée) à 10cm (dyspnée maximale imaginable).',
@@ -20,11 +21,8 @@ export class IcRdosPage {
     questions: [
       {
         title: 'Fréquence cardiaque',
-        answers: [
-          { text: '< 90/min', value: 0 },
-          { text: '90 - 109/min', value: 1 },
-          { text: '> 110/min', value: 2 }
-        ]
+        numericDivisor: 65,
+        placeholder: 'Renseignez votre valeur batt/min'
       },
       {
         title: 'Respiration abdominale paradoxale',

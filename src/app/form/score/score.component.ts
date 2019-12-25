@@ -17,8 +17,14 @@ export class ScoreComponent implements OnInit {
   constructor(public modalController: ModalController) { }
 
   ngOnInit() {
-    this.form.questions.forEach(q => this.score += q.selectedAnswer.value);
-    console.log('form', this.form);
+    this.form.questions.forEach(q => {
+      if (q.selectedAnswer) {
+        this.score += q.selectedAnswer.value;
+      } else {
+        this.score += q.numericAnswer / q.numericDivisor;
+      }
+    });
+    this.score = this.form.base + Math.round(this.score * 100) / 100;
   }
 
   dismiss() {

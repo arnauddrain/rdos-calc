@@ -2,14 +2,23 @@
 <div *ngFor="let question of form.questions; index as i;">
 
   <h2>{{ i + 1 }} - {{ question.title }}</h2>
-  <ng-container *ngIf="!question.selectedAnswer">
-    <ion-button *ngFor="let answer of question.answers" (click)="selectAnswer(question, answer)" expand="block"
-      color="light">
-      {{ answer.text }}
+
+  <ng-container *ngIf="!question.numericDivisor">
+    <ng-container *ngIf="!question.selectedAnswer">
+      <ion-button *ngFor="let answer of question.answers" (click)="selectAnswer(question, answer)" expand="block"
+        color="light">
+        {{ answer.text }}
+      </ion-button>
+    </ng-container>
+    <ion-button *ngIf="question.selectedAnswer" (click)="selectAnswer(question)" expand="block" color="dark">
+      <ion-icon slot="start" name="checkmark-circle"></ion-icon>{{ question.selectedAnswer.text }}
     </ion-button>
   </ng-container>
-  <ion-button *ngIf="question.selectedAnswer" (click)="selectAnswer(question)" expand="block" color="dark">
-    <ion-icon slot="start" name="checkmark-circle"></ion-icon>{{ question.selectedAnswer.text }}
-  </ion-button>
+
+  <ng-container *ngIf="question.numericDivisor">
+    <ion-input type="number" min="0" [placeholder]="question.placeholder"
+      (ionChange)="updateNumericAnswer(question, $event)">
+    </ion-input>
+  </ng-container>
 
 </div>

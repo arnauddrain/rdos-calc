@@ -6,5 +6,6 @@ export class Form {
     src: string;
   }[];
   treshold: number;
+  base: number;
   questions: Question[];
 }

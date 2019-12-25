@@ -6,3 +6,13 @@ h2 {
 p {
   color: white;
 }
+
+ion-input {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  --padding-bottom: 17px;
+  --padding-top: 17px;
+  --padding-start: 15px;
+  --padding-end: 15px;
+}

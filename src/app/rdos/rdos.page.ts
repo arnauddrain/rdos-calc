@@ -11,6 +11,7 @@ export class RdosPage {
 
   public form: Form = {
     treshold: 4,
+    base: 0,
     statements: [
       {
         quote: 'Un score de RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948). Les catégories de dyspnée sont déterminées par l’IDE. Les patient(e)s ne sont pas sollicité(e)s. Les IDE sont qualifiées experte dans l’évaluation de la dyspnée en soin palliatif.',

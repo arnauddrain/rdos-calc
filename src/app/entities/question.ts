@@ -5,6 +5,9 @@ export class Answer {
 
 export class Question {
   title: string;
-  answers: Answer[];
+  placeholder?: string;
+  answers?: Answer[];
+  numericDivisor?: number;
+  numericAnswer?: number;
   selectedAnswer?: Answer = null;
 }
