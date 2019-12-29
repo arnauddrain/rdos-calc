@@ -17,7 +17,7 @@
 
   <ng-container *ngIf="question.numericDivisor">
     <ion-input type="number" min="0" [placeholder]="question.placeholder"
-      (ionChange)="updateNumericAnswer(question, $event)">
+      (ionBlur)="updateNumericAnswer(question, $event)">
     </ion-input>
   </ng-container>
 
