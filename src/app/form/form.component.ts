@@ -16,9 +16,7 @@ export class FormComponent {
 
   constructor(public modalController: ModalController) { }
 
-  updateNumericAnswer(question: Question, e: any) {
-    // TODO: should probably use ngmodel instead
-    question.numericAnswer = e.detail.value;
+  updateNumericAnswer() {
     this.checkForFinish();
   }
 
