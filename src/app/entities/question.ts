@@ -9,5 +9,5 @@ export class Question {
   answers?: Answer[];
   numericDivisor?: number;
   numericAnswer?: number;
-  selectedAnswer?: Answer = null;
+  selectedAnswer?: Answer;
 }

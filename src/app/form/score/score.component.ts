@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 
 import { Form } from 'src/app/entities/form';
@@ -8,13 +8,17 @@ import { Form } from 'src/app/entities/form';
   templateUrl: './score.component.html',
   styleUrls: ['./score.component.css'],
 })
-export class ScoreComponent implements OnChanges {
+export class ScoreComponent implements OnChanges, OnInit {
 
   @Input() form: Form;
 
   public score = 0;
 
   constructor(public modalController: ModalController) { }
+
+  ngOnInit() {
+    this.calculateScore();
+  }
 
   ngOnChanges() {
     this.calculateScore();
@@ -29,7 +33,7 @@ export class ScoreComponent implements OnChanges {
         this.score += q.numericAnswer / q.numericDivisor;
       }
     });
-    this.score = this.form.base + Math.round(this.score * 100) / 100;
+    this.score = Math.round((this.form.base + this.score) * 100) / 100;
   }
 
   dismiss() {
