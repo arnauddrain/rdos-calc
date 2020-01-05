@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { FormComponent } from './form.component';
+import { FormHeaderComponent } from './form-header/form-header.component';
 import { ScoreComponent } from './score/score.component';
 
 @NgModule({
@@ -15,13 +16,15 @@ import { ScoreComponent } from './score/score.component';
     FormsModule
   ],
   exports: [
-    FormComponent
+    FormComponent,
+    FormHeaderComponent
   ],
   entryComponents: [
     ScoreComponent
   ],
   declarations: [
     FormComponent,
+    FormHeaderComponent,
     ScoreComponent
   ]
 })

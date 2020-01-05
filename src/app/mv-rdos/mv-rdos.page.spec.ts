@@ -1,8 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { FormStubComponent } from '../form/form.stub.component';
-import { FormHeaderStubComponent } from '../form-header/form-header.stub.component';
+import { FormTestModule } from '../form/form.test.module';
 import { MvRdosPage } from './mv-rdos.page';
 
 describe('MvRdosPage', () => {
@@ -11,11 +10,11 @@ describe('MvRdosPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        MvRdosPage,
-        FormStubComponent,
-        FormHeaderStubComponent
-      ], imports: [IonicModule.forRoot()]
+      declarations: [MvRdosPage],
+      imports: [
+        IonicModule.forRoot(),
+        FormTestModule
+      ]
     }).compileComponents();
 
     fixture = TestBed.createComponent(MvRdosPage);
