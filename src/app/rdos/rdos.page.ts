@@ -14,11 +14,11 @@ export class RdosPage {
     base: 0,
     statements: [
       {
-        quote: 'Un score de RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948). Les catégories de dyspnée sont déterminées par l’IDE. Les patient(e)s ne sont pas sollicité(e)s. Les IDE sont qualifiées experte dans l’évaluation de la dyspnée en soin palliatif.',
+        quote: 'Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948). Les catégories de dyspnée sont déterminées par l’IDE. Les patient(e)s ne sont pas sollicité(e)s. Les IDE sont qualifiées experte dans l’évaluation de la dyspnée en soin palliatif.',
         src: '(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)'
       },
       {
-        quote: 'Un score de RDOS ≥ 4 prédit dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795). Les catégories de dyspnée sont déterminées par les patient(e)s eux(elles)-même.',
+        quote: 'Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795). Les catégories de dyspnée sont déterminées par les patient(e)s eux(elles)-même.',
         src: '(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)'
       }
     ],

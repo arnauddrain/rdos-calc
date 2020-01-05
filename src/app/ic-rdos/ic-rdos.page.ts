@@ -14,7 +14,7 @@ export class IcRdosPage {
     base: 3.3,
     statements: [
       {
-        quote: 'La valeur seuil retenue pour fortement suspecter une dyspnée significative EVA-Dyspnée ≥ 4, est IC-RDOS ≥ 2,4. La dyspnée est évaluée par les patient(e)s au moyen d’une échelle visuelle analogique (EVA-Dyspnée) allant de 0 (pas de dyspnée) à 10cm (dyspnée maximale imaginable).',
+        quote: 'Un IC-RDOS ≥ 2,4 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 72% et une spécificité de 72% (AUC courbe ROC : 0.83).',
         src: '(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)'
       }
     ],
