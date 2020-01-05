@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { FormModule } from '../form/form.module';
+import { FormHeaderModule } from '../form-header/form-header.module';
 
 import { IcRdosPage } from './ic-rdos.page';
 
@@ -12,6 +13,7 @@ import { IcRdosPage } from './ic-rdos.page';
     CommonModule,
     IonicModule,
     FormModule,
+    FormHeaderModule,
     RouterModule.forChild([
       {
         path: '',
