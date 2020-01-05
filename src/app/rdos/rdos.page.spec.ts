@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
+import { FormStubComponent } from '../form/form.stub.component';
+import { FormHeaderStubComponent } from '../form-header/form-header.stub.component';
 import { RdosPage } from './rdos.page';
 
 describe('RdosPage', () => {
@@ -9,7 +11,11 @@ describe('RdosPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RdosPage ],
+      declarations: [
+        RdosPage,
+        FormStubComponent,
+        FormHeaderStubComponent
+      ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
