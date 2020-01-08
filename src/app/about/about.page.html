@@ -12,6 +12,20 @@
 <ion-content>
   <ion-item-divider>
     <ion-label>
+      Réglages
+    </ion-label>
+  </ion-item-divider>
+  <ion-list>
+    <ion-radio-group [(ngModel)]="selectedLanguage" (ionChange)="updateLanguage()">
+      <ion-item *ngFor="let language of languages">
+        <ion-label>{{ language.label }}</ion-label>
+        <ion-radio slot="start" [value]="language.code">
+        </ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  <ion-item-divider>
+    <ion-label>
       à propos
     </ion-label>
   </ion-item-divider>

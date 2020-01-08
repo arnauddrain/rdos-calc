@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { LanguageService } from '../services/language.service';
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.page.html',
@@ -7,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPage implements OnInit {
 
-  constructor() { }
+  public languages = [
+    {
+      label: 'Français',
+      code: 'fr'
+    },
+    {
+      label: 'English',
+      code: 'en'
+    }
+  ];
 
-  ngOnInit() {
+  public selectedLanguage: string;
+
+  constructor(private languageService: LanguageService) { }
+
+  async ngOnInit() {
+    this.selectedLanguage = await this.languageService.getLanguage();
+  }
+
+  async updateLanguage() {
+    await this.languageService.setLanguage(this.selectedLanguage);
   }
 
 }

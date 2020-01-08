@@ -16,6 +16,10 @@ ion-item {
   --detail-icon-opacity: 1;
 }
 
+ion-list {
+  margin-bottom: 0;
+}
+
 p {
   opacity: 0.5;
 }
