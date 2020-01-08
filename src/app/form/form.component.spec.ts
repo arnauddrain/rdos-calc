@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { FormComponent } from './form.component';
 import { Form } from '../entities/form';
@@ -14,6 +15,7 @@ describe('FormComponent', () => {
       declarations: [FormComponent],
       imports: [
         IonicModule.forRoot(),
+        TranslateModule.forRoot(),
         FormsModule
       ]
     }).compileComponents();

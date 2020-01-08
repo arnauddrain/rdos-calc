@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { IonicModule } from '@ionic/angular';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { ScoreComponent } from './score.component';
 import { Form } from '../../entities/form';
@@ -28,6 +29,7 @@ describe('ScoreComponent', () => {
       declarations: [ScoreComponent, TestHostComponent],
       imports: [
         IonicModule.forRoot(),
+        TranslateModule.forRoot(),
         RouterTestingModule
       ]
     }).compileComponents();

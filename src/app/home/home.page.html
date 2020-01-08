@@ -6,18 +6,15 @@
       </a>
     </div>
     <h1>RDOS-calc</h1>
-    <p class="ion-margin-bottom">
-      RDOS-calc est une <strong>application d'aide à la décision clinique en pneumologie/réanimation</strong>,
-      elle ne se substitue pas au jugement clinique du praticien.
-    </p>
+    <p class="ion-margin-bottom" [innerHTML]="'Description' | translate"></p>
     <ion-button strong="true" expand="block" [routerLink]="['/rdos']" color="rdos" class="ion-margin-top">
-      RDOS : Soins palliatifs
+      {{ 'RDOS' | translate}}
     </ion-button>
     <ion-button strong="true" expand="block" [routerLink]="['/ic-rdos']" color="ic-rdos" class="ion-margin-top">
-      IC-RDOS : réa non intubé
+      {{ 'IC-RDOS' | translate}}
     </ion-button>
     <ion-button strong="true" expand="block" [routerLink]="['/mv-rdos']" color="mv-rdos" class="ion-margin-top">
-      MV-RDOS : réa intubé
+      {{ 'MV-RDOS' | translate}}
     </ion-button>
   </div>
 </ion-content>

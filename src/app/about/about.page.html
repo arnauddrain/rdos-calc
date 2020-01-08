@@ -5,15 +5,13 @@
         <ion-icon name="arrow-back" color="dark"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-title>Paramètres</ion-title>
+    <ion-title translate>About.Settings</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-item-divider>
-    <ion-label>
-      Réglages
-    </ion-label>
+    <ion-label translate>About.Language</ion-label>
   </ion-item-divider>
   <ion-list>
     <ion-radio-group [(ngModel)]="selectedLanguage" (ionChange)="updateLanguage()">
@@ -25,21 +23,15 @@
     </ion-radio-group>
   </ion-list>
   <ion-item-divider>
-    <ion-label>
-      à propos
-    </ion-label>
+    <ion-label translate>About.About</ion-label>
   </ion-item-divider>
   <ion-item>
-    <p>Cette application a été développée par l'équipe de réanimation/pneumologie de l'hôpital Pitié-Salpétrière à
-      Paris pour faciliter le calcul des échelles observationnelles de dyspnée RDOS, IC-RDOS et MV-RDOS. La dyspnée
-      étant par définition subjective, ces échelles ne prétendent pas affirmer la présence ou l'absence de dyspnée
-      mais offrent la possibilité de fortement suspecter de la dyspnée chez des patients non-communicants dans
-      différents contextes cliniques.</p>
+    <p translate>About.Desc</p>
   </ion-item>
   <ion-item [routerLink]="['/biblio']">
-    <span class="link">Références bibliographiques</span>
+    <span class="link" translate>Biblio.Biblio</span>
   </ion-item>
   <ion-item [routerLink]="['/contact']">
-    <span class="link">Contact</span>
+    <span class="link" translate>Contact.Contact</span>
   </ion-item>
 </ion-content>

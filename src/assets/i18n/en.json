@@ -1,3 +1,18 @@
 {
-  "Description": "Description en anglais"
+  "Description": "RDOS-calc is a <strong>clinical decision support application in palliative and critical care</strong>, it does not replace the clinical judgment of the caregiver.",
+  "RDOS": "RDOS : Soins palliatifs",
+  "IC-RDOS": "IC-RDOS : réa non intubé",
+  "MV-RDOS": "MV-RDOS : réa intubé",
+  "About": {
+    "Settings": "Settings",
+    "Language": "Language",
+    "About": "about",
+    "Desc": "This application was developed by the respiratory and critical care team at the Pitié-Salpétrière hospital in Paris to facilitate the calculation of dyspnea observational scales RDOS, IC-RDOS and MV-RDOS. As dyspnea is by definition subjective, these scales do not claim to affirm the presence or absence of dyspnea but offer the possibility to strongly suspect dyspnea in noncommunicative patients in different clinical contexts."
+  },
+  "Biblio": {
+    "Biblio": "Bibliographic references"
+  },
+  "Contact": {
+    "Contact": "Contact"
+  }
 }
