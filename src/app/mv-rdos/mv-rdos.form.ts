@@ -1,7 +1,7 @@
 import { Form } from '../entities/form';
 
 export const MvRdosForm: Form = {
-  treshold: 2.6,
+  treshold: 2.4,
   base: 3.3,
   statements: [
     {
