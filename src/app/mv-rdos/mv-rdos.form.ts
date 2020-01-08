@@ -1,11 +1,11 @@
 import { Form } from '../entities/form';
 
 export const MvRdosForm: Form = {
-  treshold: 2.4,
+  treshold: 2.6,
   base: 3.3,
   statements: [
     {
-      quote: 'Un MV-RDOS ≥ 2,4 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 57% et une spécificité de 94% (AUC courbe ROC : 0.78).',
+      quote: 'Un MV-RDOS ≥ 2,6 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 57% et une spécificité de 94% (AUC courbe ROC : 0.78).',
       src: '(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)'
     }
   ],
