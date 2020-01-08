@@ -6,16 +6,18 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
+import { LanguageService } from './services/language.service';
 
 describe('AppComponent', () => {
 
-  let statusBarSpy, splashScreenSpy, platformReadySpy, platformSpy;
+  let statusBarSpy, splashScreenSpy, platformReadySpy, platformSpy, languageServiceSpy;
 
   beforeEach(async(() => {
     statusBarSpy = jasmine.createSpyObj('StatusBar', ['styleDefault']);
     splashScreenSpy = jasmine.createSpyObj('SplashScreen', ['hide']);
     platformReadySpy = Promise.resolve();
     platformSpy = jasmine.createSpyObj('Platform', { ready: platformReadySpy });
+    languageServiceSpy = jasmine.createSpyObj('LanguageService', ['initialize']);
 
     TestBed.configureTestingModule({
       declarations: [AppComponent],
@@ -24,6 +26,7 @@ describe('AppComponent', () => {
         { provide: StatusBar, useValue: statusBarSpy },
         { provide: SplashScreen, useValue: splashScreenSpy },
         { provide: Platform, useValue: platformSpy },
+        { provide: LanguageService, useValue: languageServiceSpy }
       ],
     }).compileComponents();
   }));
@@ -40,6 +43,7 @@ describe('AppComponent', () => {
     await platformReadySpy;
     expect(statusBarSpy.styleDefault).toHaveBeenCalled();
     expect(splashScreenSpy.hide).toHaveBeenCalled();
+    expect(languageServiceSpy.initialize).toHaveBeenCalled();
   });
 
   // TODO: add more tests!
