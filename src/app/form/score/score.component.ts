@@ -33,7 +33,7 @@ export class ScoreComponent implements OnChanges, OnInit {
         this.score += q.numericAnswer / q.numericDivisor;
       }
     });
-    this.score = Math.round((this.form.base + this.score) * 100) / 100;
+    this.score = Math.round((this.form.base + this.score) * 10) / 10;
   }
 
   dismiss() {

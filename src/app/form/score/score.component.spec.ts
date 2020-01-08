@@ -78,7 +78,7 @@ describe('ScoreComponent', () => {
     fixture.detectChanges();
 
     const scoreEl = fixture.nativeElement.querySelector('.value');
-    expect(scoreEl.textContent).toBe('6.32');
+    expect(scoreEl.textContent).toBe('6.3');
   });
 
   it('should have right score for mv-rdos', () => {
