@@ -1,23 +1,23 @@
 <p translate [translateParams]="{length: form.questions.length}">Form.Intro</p>
 <div *ngFor="let question of form.questions; index as i;">
 
-  <h2>{{ i + 1 }} - {{ question.title }}</h2>
+  <h2>{{ i + 1 }} - {{ question.title | translate}}</h2>
 
   <ng-container *ngIf="!question.numericDivisor">
     <ng-container *ngIf="!question.selectedAnswer">
       <ion-button *ngFor="let answer of question.answers" (click)="selectAnswer(question, answer)" expand="block"
         color="light">
-        {{ answer.text }}
+        {{ answer.text | translate }}
       </ion-button>
     </ng-container>
     <ion-button *ngIf="question.selectedAnswer" (click)="selectAnswer(question)" expand="block" color="dark">
-      <ion-icon slot="start" name="checkmark-circle"></ion-icon>{{ question.selectedAnswer.text }}
+      <ion-icon slot="start" name="checkmark-circle"></ion-icon>{{ question.selectedAnswer.text | translate}}
     </ion-button>
   </ng-container>
 
   <ng-container *ngIf="question.numericDivisor">
-    <ion-input type="tel" pattern="[0-9]*" [placeholder]="question.placeholder" (ionBlur)="updateNumericAnswer()"
-      [(ngModel)]="question.numericAnswer">
+    <ion-input type="tel" pattern="[0-9]*" placeholder="{{ question.placeholder | translate }}"
+      (ionBlur)="updateNumericAnswer()" [(ngModel)]="question.numericAnswer">
     </ion-input>
   </ng-container>
 

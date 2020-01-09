@@ -6,7 +6,42 @@
   "Form": {
     "Intro": "Answer to these {{length}} questions and obtain a pre-diagnostic.",
     "Result": "Diagnostic result",
-    "Back": "Back to the homepage"
+    "Back": "Back to the homepage",
+    "Title": {
+      "CardiacFrequency": "Heart rate",
+      "CardiacFrequencyPlaceholder": "Fill your value beats/min",
+      "BreathingFrequency": "Breathing frequency",
+      "BreathingFrequencyPlaceholder": "Fill your value cycles/min",
+      "Restlessness": "Restlessness, nonpurposeful movements",
+      "ParadoxicalBreathing": "Paradoxical breathing pattern, abdomen moves down during inspiration",
+      "NeckUsage": "Use of neck muscle during inspiration, visibility of neck muscle contraction",
+      "Grunting": "Grunting at end expiration, gutural sound",
+      "NasalFlarring": "Nasal flarring, involuntary movement of nares at inspiration",
+      "Fear": "Look of fear",
+      "Oxygen": "Oxygen supplemental"
+    },
+    "Answer": {
+      "Casual": "Casual",
+      "Frequent": "Frequent",
+      "Moderate": "Moderate",
+      "Intense": "Intense",
+      "Yes": "Yes",
+      "No": "No"
+    },
+    "RDOS": {
+      "quote1": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
+      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
+      "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
+      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
+    },
+    "IC-RDOS": {
+      "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.83, with a IC-RDOS cutoff of 2.4 for 72% sensitivity and 72% specificity and a cutoff of 6.3 for 100% specificity.",
+      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)"
+    },
+    "MV-RDOS": {
+      "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.78, with a MV-RDOS cutoff of 2.6 for 57% sensitivity and 94% specificity.",
+      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)"
+    }
   },
   "About": {
     "Settings": "Settings",

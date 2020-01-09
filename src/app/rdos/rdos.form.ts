@@ -5,17 +5,17 @@ export const RdosForm: Form = {
   base: 0,
   statements: [
     {
-      quote: 'Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948).',
-      src: '(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)'
+      quote: 'Form.RDOS.quote1',
+      src: 'Form.RDOS.src1'
     },
     {
-      quote: 'Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795).',
-      src: '(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)'
+      quote: 'Form.RDOS.quote2',
+      src: 'Form.RDOS.src2'
     }
   ],
   questions: [
     {
-      title: 'Fréquence cardiaque',
+      title: 'Form.Title.CardiacFrequency',
       answers: [
         { text: '< 90/min', value: 0 },
         { text: '90 - 109/min', value: 1 },
@@ -23,7 +23,7 @@ export const RdosForm: Form = {
       ]
     },
     {
-      title: 'Fréquence respiratoire',
+      title: 'Form.Title.BreathingFrequency',
       answers: [
         { text: '< 19/min', value: 0 },
         { text: '19 - 30/min', value: 1 },
@@ -31,47 +31,47 @@ export const RdosForm: Form = {
       ]
     },
     {
-      title: 'Agitation, mouvements non intentionnels',
+      title: 'Form.Title.Restlessness',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Occasionnels', value: 1 },
-        { text: 'Fréquents', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Casual', value: 1 },
+        { text: 'Form.Answer.Frequent', value: 2 }
       ]
     },
     {
-      title: 'Respiration abdominale paradoxale',
+      title: 'Form.Title.ParadoxicalBreathing',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Oui', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Yes', value: 2 }
       ]
     },
     {
-      title: 'Contraction des muscles du cou à l\'inspiration',
+      title: 'Form.Title.NeckUsage',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Modérée', value: 1 },
-        { text: 'Intense', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Moderate', value: 1 },
+        { text: 'Form.Answer.Intense', value: 2 }
       ]
     },
     {
-      title: 'Gémissement en fin d\'expiration',
+      title: 'Form.Title.Grunting',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Oui', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Yes', value: 2 }
       ]
     },
     {
-      title: 'Battement des ailes du nez',
+      title: 'Form.Title.NasalFlarring',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Oui', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Yes', value: 2 }
       ]
     },
     {
-      title: 'Expression faciale de peur',
+      title: 'Form.Title.Fear',
       answers: [
-        { text: 'Non', value: 0 },
-        { text: 'Oui', value: 2 }
+        { text: 'Form.Answer.No', value: 0 },
+        { text: 'Form.Answer.Yes', value: 2 }
       ]
     }
   ]

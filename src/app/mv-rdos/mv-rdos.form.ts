@@ -5,40 +5,40 @@ export const MvRdosForm: Form = {
   base: 3.3,
   statements: [
     {
-      quote: 'Un MV-RDOS ≥ 2,6 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 57% et une spécificité de 94% (AUC courbe ROC : 0.78).',
-      src: '(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)'
+      quote: 'Form.MV-RDOS.quote',
+      src: 'Form.MV-RDOS.src'
     }
   ],
   questions: [
     {
-      title: 'Fréquence cardiaque',
+      title: 'Form.Title.CardiacFrequency',
       numericDivisor: 65,
-      placeholder: 'Renseignez votre valeur batt/min'
+      placeholder: 'Form.Title.CardiacFrequencyPlaceholder'
     },
     {
-      title: 'Fréquence respiratoire',
+      title: 'Form.Title.BreathingFrequency',
       numericDivisor: 50,
-      placeholder: 'Renseignez votre valeur cycles/min'
+      placeholder: 'Form.Title.BreathingFrequencyPlaceholder'
     },
     {
-      title: 'Respiration abdominale paradoxale',
+      title: 'Form.Title.ParadoxicalBreathing',
       answers: [
-        { text: 'Non', value: -1 },
-        { text: 'Oui', value: 1 }
+        { text: 'Form.Answer.No', value: -1 },
+        { text: 'Form.Answer.Yes', value: 1 }
       ]
     },
     {
-      title: 'Contraction des muscles du cou à l\'inspiration',
+      title: 'Form.Title.NeckUsage',
       answers: [
-        { text: 'Non', value: -1 },
-        { text: 'Oui', value: 1 }
+        { text: 'Form.Answer.No', value: -1 },
+        { text: 'Form.Answer.Yes', value: 1 }
       ]
     },
     {
-      title: 'Expression faciale de peur',
+      title: 'Form.Title.Fear',
       answers: [
-        { text: 'Non', value: -1 },
-        { text: 'Oui', value: 1 }
+        { text: 'Form.Answer.No', value: -1 },
+        { text: 'Form.Answer.Yes', value: 1 }
       ]
     }
   ]

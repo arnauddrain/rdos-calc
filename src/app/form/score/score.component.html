@@ -5,8 +5,8 @@
       <span class="value">{{ score }}</span>
     </div>
     <ng-container *ngFor="let statement of form.statements">
-      <p>{{ statement.quote }}</p>
-      <p class="src">{{ statement.src }}</p>
+      <p>{{ statement.quote | translate}}</p>
+      <p class="src">{{ statement.src | translate}}</p>
     </ng-container>
     <ion-button [routerLink]="['/']" routerDirection="back" color="light" expand="block" class="ion-margin-top"
       (click)="dismiss()" translate>

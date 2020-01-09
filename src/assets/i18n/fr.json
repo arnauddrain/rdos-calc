@@ -6,7 +6,42 @@
   "Form": {
     "Intro": "Répondez à ces {{length}} questions afin d’obtenir un pré-diagnostic.",
     "Result": "Résultat du diagnostic",
-    "Back": "Retour à l'accueil"
+    "Back": "Retour à l'accueil",
+    "Title": {
+      "CardiacFrequency": "Fréquence cardiaque",
+      "CardiacFrequencyPlaceholder": "Renseignez votre valeur batt/min",
+      "BreathingFrequency": "Fréquence respiratoire",
+      "BreathingFrequencyPlaceholder": "Renseignez votre valeur cycles/min",
+      "Restlessness": "Agitation, mouvements non intentionnels",
+      "ParadoxicalBreathing": "Respiration abdominale paradoxale",
+      "NeckUsage": "Contraction des muscles du cou à l'inspiration",
+      "Grunting": "Gémissement en fin d'expiration",
+      "NasalFlarring": "Battement des ailes du nez",
+      "Fear": "Expression faciale de peur",
+      "Oxygen": "Besoin en oxygène"
+    },
+    "Answer": {
+      "Casual": "Occasionnels",
+      "Frequent": "Fréquents",
+      "Moderate": "Modérée",
+      "Intense": "Intense",
+      "Yes": "Yes",
+      "No": "No"
+    },
+    "RDOS": {
+      "quote1": "Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948).",
+      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
+      "quote2": "Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795).",
+      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
+    },
+    "IC-RDOS": {
+      "quote": "Un IC-RDOS ≥ 2,4 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 72% et une spécificité de 72% (AUC courbe ROC : 0.83).",
+      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)"
+    },
+    "MV-RDOS": {
+      "quote": "Un MV-RDOS ≥ 2,6 prédit une dyspnée EVA ≥ 4 (dyspnée significative) avec une sensibilité de 57% et une spécificité de 94% (AUC courbe ROC : 0.78).",
+      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)"
+    }
   },
   "About": {
     "Settings": "Paramètres",
