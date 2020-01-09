@@ -31,7 +31,7 @@
     "RDOS": {
       "quote1": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
       "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
-      "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
+      "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.795, with a RDOS cutoff of 4 for 36% sensitivity and 94% specificity.",
       "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
     },
     "IC-RDOS": {
@@ -54,7 +54,7 @@
     "RDOS": {
       "quote1": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
       "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
-      "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
+      "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.795, with a RDOS cutoff of 4 for 36% sensitivity and 94% specificity.",
       "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
     },
     "IC-RDOS": {
