@@ -1,8 +1,13 @@
 {
   "Description": "RDOS-calc est une <strong>application d'aide à la décision clinique en pneumologie/réanimation</strong>, elle ne se substitue pas au jugement clinique du praticien.",
   "RDOS": "RDOS : Soins palliatifs",
-  "IC-RDOS": "IC-RDOS : réa non intubé",
-  "MV-RDOS": "MV-RDOS : réa intubé",
+  "IC-RDOS": "IC-RDOS : Réa non intubé",
+  "MV-RDOS": "MV-RDOS : Réa intubé",
+  "Form": {
+    "Intro": "Répondez à ces {{length}} questions afin d’obtenir un pré-diagnostic.",
+    "Result": "Résultat du diagnostic",
+    "Back": "Retour à l'accueil"
+  },
   "About": {
     "Settings": "Paramètres",
     "Language": "Langue",
@@ -10,7 +15,21 @@
     "Desc": "Cette application a été développée par l'équipe de réanimation/pneumologie de l'hôpital Pitié-Salpétrière à Paris pour faciliter le calcul des échelles observationnelles de dyspnée RDOS, IC-RDOS et MV-RDOS. La dyspnée étant par définition subjective, ces échelles ne prétendent pas affirmer la présence ou l'absence de dyspnée mais offrent la possibilité de fortement suspecter de la dyspnée chez des patients non-communicants dans différents contextes cliniques."
   },
   "Biblio": {
-    "Biblio": "Références bibliographiques"
+    "Biblio": "Références bibliographiques",
+    "RDOS": {
+      "quote1": "Un score de RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948). Dans cette étude, les catégories de dyspnée sont déterminées par l’IDE. Les patient(e)s ne sont pas sollicité(e)s. Les IDE sont qualifiées expertes dans l’évaluation de la dyspnée en soins palliatifs.",
+      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
+      "quote2": "Un score de RDOS ≥ 4 prédit dyspnée modérée à sévère avec une sensibilité de 36% et une spécificité de 94% (AUC courbe ROC : 0.795). Les catégories de dyspnée sont déterminées par les patient(e)s eux(elles)-même.",
+      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
+    },
+    "IC-RDOS": {
+      "quote": "La valeur seuil retenue pour fortement suspecter une dyspnée significative EVA-Dyspnée ≥ 4, est IC-RDOS ≥ 2,4. La dyspnée est évaluée par les patient(e)s au moyen d’une échelle visuelle analogique (EVA-Dyspnée) allant de 0 (pas de dyspnée) à 10cm (dyspnée maximale imaginable).",
+      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)"
+    },
+    "MV-RDOS": {
+      "quote": "La valeur seuil retenue pour fortement suspecter une dyspnée significative EVA-Dyspnée ≥ 4, est IC-RDOS ≥ 2,6. La dyspnée est évaluée par les patient(e)s au moyen d’une échelle visuelle analogique (EVA-Dyspnée) allant de 0 (pas de dyspnée) à 10cm (dyspnée maximale imaginable).",
+      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)"
+    }
   },
   "Contact": {
     "Contact": "Contact"
