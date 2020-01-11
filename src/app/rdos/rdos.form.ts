@@ -19,7 +19,7 @@ export const RdosForm: Form = {
       answers: [
         { text: '< 90/min', value: 0 },
         { text: '90 - 109/min', value: 1 },
-        { text: '> 110/min', value: 2 }
+        { text: '> 109/min', value: 2 }
       ]
     },
     {
