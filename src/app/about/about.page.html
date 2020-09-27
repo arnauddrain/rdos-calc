@@ -28,6 +28,30 @@
   <ion-item>
     <p translate>About.Desc</p>
   </ion-item>
+  <ion-item-divider>
+    <ion-label [innerHTML]="'About.Disclaimer' | translate"></ion-label>
+  </ion-item-divider>
+  <ion-item>
+    <p [innerHTML]="'About.DisclaimerText' | translate"></p>
+  </ion-item>
+  <ion-item-divider>
+    <ion-label translate>About.Usage</ion-label>
+  </ion-item-divider>
+  <ion-item>
+    <p [innerHTML]="'About.UsageText' | translate"></p>
+  </ion-item>
+  <ion-item-divider>
+    <ion-label translate>About.Limits</ion-label>
+  </ion-item-divider>
+  <ion-item>
+    <p [innerHTML]="'About.LimitsText' | translate"></p>
+  </ion-item>
+  <ion-item-divider>
+    <ion-label translate>About.MedicalDisclaimer</ion-label>
+  </ion-item-divider>
+  <ion-item>
+    <p translate>About.MedicalDisclaimerText</p>
+  </ion-item>
   <ion-item [routerLink]="['/biblio']">
     <span class="link" translate>Biblio.Biblio</span>
   </ion-item>
