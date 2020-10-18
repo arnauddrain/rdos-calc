@@ -28,3 +28,7 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+
+# ignore generated resources
+/resources/ios
+/resources/android
