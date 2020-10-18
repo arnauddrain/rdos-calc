@@ -25,8 +25,8 @@
       "Frequent": "Fréquents",
       "Moderate": "Modérée",
       "Intense": "Intense",
-      "Yes": "Yes",
-      "No": "No"
+      "Yes": "Oui",
+      "No": "Non"
     },
     "RDOS": {
       "quote1": "Un RDOS ≥ 4 prédit une dyspnée modérée à sévère avec une sensibilité de 97% et une spécificité de 80% (AUC courbe ROC : 0.948).",
