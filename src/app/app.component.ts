@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-
 import { Platform } from '@ionic/angular';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { Plugins } from '@capacitor/core';
+
+const { SplashScreen } = Plugins;
+
 
 import { LanguageService } from './services/language.service';
 
@@ -14,8 +15,6 @@ import { LanguageService } from './services/language.service';
 export class AppComponent {
   constructor(
     private platform: Platform,
-    private splashScreen: SplashScreen,
-    private statusBar: StatusBar,
     private languageService: LanguageService
   ) {
     this.initializeApp();
@@ -23,8 +22,7 @@ export class AppComponent {
 
   async initializeApp() {
     await this.platform.ready();
-    this.statusBar.styleDefault();
-    this.splashScreen.hide();
+    SplashScreen.hide();
     await this.languageService.initialize();
   }
 }
