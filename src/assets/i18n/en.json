@@ -30,17 +30,17 @@
     },
     "RDOS": {
       "quote1": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
-      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
+      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/25634631/'>Source</a>)",
       "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.795, with a RDOS cutoff of 4 for 36% sensitivity and 94% specificity.",
-      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
+      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/27495878/'>Source</a>)"
     },
     "IC-RDOS": {
       "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.83, with a IC-RDOS cutoff of 2.4 for 72% sensitivity and 72% specificity and a cutoff of 6.3 for 100% specificity.",
-      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)"
+      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/26259140/'>Source</a>)"
     },
     "MV-RDOS": {
       "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.78, with a MV-RDOS cutoff of 2.6 for 57% sensitivity and 94% specificity.",
-      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)"
+      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/30209199/'>Source</a>)"
     }
   },
   "About": {
@@ -49,7 +49,7 @@
     "About": "about",
     "Desc": "This application was developed by the respiratory and critical care team at the Pitié-Salpétrière hospital in Paris to facilitate the calculation of dyspnea observational scales RDOS, IC-RDOS and MV-RDOS. As dyspnea is by definition subjective, these scales do not claim to affirm the presence or absence of dyspnea but offer the possibility to strongly suspect dyspnea in noncommunicative patients in different clinical contexts.",
     "Disclaimer": "Disclaimer",
-    "DisclaimerText": "The material in this application RDOS-Calc may be used for general informational and educational purposes only. If you use this material, you agree to these terms. If you do not agree to them, do not use the application.<br>All scores reported in this application are only validated among adults and should not be used in pediatric contexts (see <i>Fortney C, Campbell M.L. Development and Content Validity of a Respiratory Distress Observation Scale-Infant. Journal of palliative medicine. 2020;23: 838-841.</i>)<br>Reference values should not be regarded as absolute indicators of health and disease. Reference intervals should be used with caution, since values for healthy individuals often overlap significantly with values for persons with disease",
+    "DisclaimerText": "The material in this application RDOS-Calc may be used for general informational and educational purposes only. If you use this material, you agree to these terms. If you do not agree to them, do not use the application.<br>All scores reported in this application are only validated among adults and should not be used in pediatric contexts (see <i>Fortney C, Campbell M.L. Development and Content Validity of a Respiratory Distress Observation Scale-Infant. Journal of palliative medicine. 2020;23: 838-841.</i> <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/31644359/'>Source</a>)<br>Reference values should not be regarded as absolute indicators of health and disease. Reference intervals should be used with caution, since values for healthy individuals often overlap significantly with values for persons with disease.",
     "Usage": "Use of Content",
     "UsageText": "This application includes the Respiratory Distress Observation Scale (RDOS©) copyrighted works proprietary to Dr. Margaret L. Campbell, PhD, RN, FPCN, pursuant to applicable copyright law. User agrees to comply with any additional copyright notices, information, or restrictions contained in any content available on or accessed through the application. Users of the application may use the content only for their personal, non-commercial use. User may not modify, publish, transmit, transfer or sell, reproduce, create derivative works from, distribute, perform, display, or in any way exploit the RDOS, in whole or in part, unless specifically authorized by the owner of the RDOS copyright.",
     "Limits": "Limits on Accuracy",
@@ -61,17 +61,17 @@
     "Biblio": "Bibliographic references",
     "RDOS": {
       "quote1": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.95, with a RDOS cutoff of 4 for 97% sensitivity and 80% specificity.",
-      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42.)",
+      "src1": "(Campbell ML, et al. Intensity cut-points for the Respiratory Distress Observation Scale. Palliat Med. 2015;29:436-42. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/25634631/'>Source</a>)",
       "quote2": "For the prediction of a moderate-to-severe dyspnea, the area under the ROC curve was 0.795, with a RDOS cutoff of 4 for 36% sensitivity and 94% specificity.",
-      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17.)"
+      "src2": "(Campbell ML, et al. Mild, moderate, and severe intensity cut-points for the Respiratory Distress Observation Scale. Heart Lung. 2017;46:14-17. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/27495878/'>Source</a>)"
     },
     "IC-RDOS": {
       "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.83, with a IC-RDOS cutoff of 2.4 for 72% sensitivity and 72% specificity and a cutoff of 6.3 for 100% specificity.",
-      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37.)"
+      "src": "(Persichini R, et al. Diagnostic Accuracy of Respiratory Distress Observation Scales as Surrogates of Dyspnea Self-report in Intensive Care Unit Patients. Anesthesiology. 2015;123:830-37. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/26259140/'>Source</a>)"
     },
     "MV-RDOS": {
       "quote": "For the prediction of D-VAS ≥ 4, the area under the ROC curve was 0.78, with a MV-RDOS cutoff of 2.6 for 57% sensitivity and 94% specificity.",
-      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52.)"
+      "src": "(Decavèle M, et al. The Mechanical Ventilation-Respiratory Distress Observation Scale as a surrogate of selfreported dyspnoea in intubated patients. Eur Respir J 2018; 52. <a target='_blank' href='https://pubmed.ncbi.nlm.nih.gov/30209199/'>Source</a>)"
     }
   },
   "Contact": {

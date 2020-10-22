@@ -18,13 +18,13 @@
   <ion-item>
     <div>
       <p translate>Biblio.RDOS.quote1</p>
-      <p class="src" translate>Biblio.RDOS.src1</p>
+      <p class="src" [innerHtml]="'Biblio.RDOS.src1' | translate"></p>
     </div>
   </ion-item>
   <ion-item lines="none">
     <div>
       <p translate>Biblio.RDOS.quote2</p>
-      <p class="src" translate>Biblio.RDOS.src2</p>
+      <p class="src" [innerHtml]="'Biblio.RDOS.src2' | translate"></p>
     </div>
   </ion-item>
   <ion-item-divider>
@@ -35,7 +35,7 @@
   <ion-item lines="none">
     <div>
       <p translate>Biblio.IC-RDOS.quote</p>
-      <p class="src" translate>Biblio.IC-RDOS.src</p>
+      <p class="src" [innerHtml]="'Biblio.IC-RDOS.src' | translate"></p>
     </div>
   </ion-item>
   <ion-item-divider>
@@ -46,7 +46,7 @@
   <ion-item lines="none">
     <div>
       <p translate>Biblio.MV-RDOS.quote</p>
-      <p class="src" translate>Biblio.MV-RDOS.src</p>
+      <p class="src" [innerHtml]="'Biblio.MV-RDOS.src' | translate"></p>
     </div>
   </ion-item>
 </ion-content>
