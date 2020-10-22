@@ -1,4 +1,4 @@
-## [Unreleased]
+# [1.0.0](https://github.com/arnauddrain/rdos-calc/compare/v1.0.0...v1.0.0) (2020-10-22)
 
 ### Fixed
 
