@@ -7,6 +7,7 @@
 ### Changed
 
 * **dev:** Update to Angular 10, Capacitor 2 and Ionic 5
+* **dev:** Remove ionic-native and Cordova references
 
 ### Added
 
