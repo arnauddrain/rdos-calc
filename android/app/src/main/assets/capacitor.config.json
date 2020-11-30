@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "rdos-calc",
+  "appName": "dos-calc",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
