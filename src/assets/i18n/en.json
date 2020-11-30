@@ -1,5 +1,5 @@
 {
-  "Description": "DOS-calc is a <strong>clinical decision support application in palliative and critical care</strong>, it does not replace the clinical judgment of the caregiver.",
+  "Description": "DOS-calc is a <strong>tool to assess the probability of dyspnea in noncommunicative patients</strong>, it does not replace the clinical judgment of the caregiver.",
   "RDOS": "RDOS : Palliative care",
   "IC-RDOS": "IC-RDOS : ICU non-intubated",
   "MV-RDOS": "MV-RDOS : ICU intubated",

@@ -1,5 +1,5 @@
 {
-  "Description": "DOS-calc est une <strong>application d'aide à la décision clinique en pneumologie/réanimation</strong>, elle ne se substitue pas au jugement clinique du praticien.",
+  "Description": "DOS-calc est un <strong>util permettant d’évaluer la probabilité de dyspnée chez les patients non-communicants</strong>, il ne se substitue pas au jugement clinique du praticien.",
   "RDOS": "RDOS : Soins palliatifs",
   "IC-RDOS": "IC-RDOS : Réa non intubé",
   "MV-RDOS": "MV-RDOS : Réa intubé",
@@ -18,7 +18,7 @@
       "Grunting": "Gémissement en fin d'expiration",
       "NasalFlarring": "Battement des ailes du nez",
       "Fear": "Expression faciale de peur",
-      "Oxygen": "Besoin en oxygène"
+      "Oxygen": "Administration d'oxygène"
     },
     "Answer": {
       "Casual": "Occasionnels",
