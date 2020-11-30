@@ -1,4 +1,10 @@
-# [1.0.0](https://github.com/arnauddrain/rdos-calc/compare/v1.0.0...v1.0.0) (2020-10-22)
+# [1.0.1](https://github.com/arnauddrain/dos-calc/compare/v1.0.0...v1.0.1) (2020-11-30)
+
+### Changed
+
+* **app:** App name is now dos-calc
+
+# [1.0.0](https://github.com/arnauddrain/dos-calc/compare/v1.0.0...v1.0.0) (2020-10-22)
 
 ### Fixed
 

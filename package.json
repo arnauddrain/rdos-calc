@@ -1,8 +1,8 @@
 {
-  "name": "rdos-calc",
+  "name": "dos-calc",
   "version": "1.0.0",
   "author": "Arnaud Drain",
-  "homepage": "https://github.com/arnauddrain/rdos-calc",
+  "homepage": "https://github.com/arnauddrain/dos-calc",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

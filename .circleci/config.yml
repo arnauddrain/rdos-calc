@@ -1,16 +1,16 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/rdos-calc
+    working_directory: ~/dos-calc
     docker:
       - image: circleci/node:10-browsers
     steps:
       - checkout
       - restore_cache:
-          key: rdos-calc-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          key: dos-calc-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm install
       - save_cache:
-          key: rdos-calc-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          key: dos-calc-{{ .Branch }}-{{ checksum "package-lock.json" }}
           paths:
             - "node_modules"
       - run: npm run lint
@@ -30,7 +30,7 @@ jobs:
             - www
 
   deploy:
-    working_directory: ~/rdos-calc
+    working_directory: ~/dos-calc
     machine:
       enabled: true
     steps:
