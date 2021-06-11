@@ -24,22 +24,15 @@ jobs:
       - store_artifacts:
           path: ./junit
       - run: npm run build -- --prod --aot
-      - persist_to_workspace:
-          root: .
-          paths:
-            - www
 
   deploy:
     working_directory: ~/dos-calc
-    machine:
-      enabled: true
+    docker:
+      - image: buildpack-deps:trusty
     steps:
-      - attach_workspace:
-          at: www
       - run:
-          name: Deploy Over SCP
-          command: |
-            scp -r www/www/* "$SSH_USER@$SSH_HOST:$SSH_DEPLOY_PATH"
+          name: Deploy
+          command: curl -X POST -d {} ${NETLIFY_HOOK}
 
 workflows:
   version: 2
